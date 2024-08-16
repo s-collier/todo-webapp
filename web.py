@@ -30,11 +30,11 @@ for index, todo in enumerate(todos):
 st.text_input(label="tmp", label_visibility="hidden", placeholder="Add new todo...",
               on_change=add_todo, key='new_todo')
 
-print("Hello")
+#print("Hello")
 
 # st.session_state looks like dictionary containing stuff entered in app, e.g., new_todo key
 
-st.session_state
+#st.session_state
 
 
 
